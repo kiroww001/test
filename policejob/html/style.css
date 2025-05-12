@@ -1,0 +1,37 @@
+body {
+  background-color: #1e1e1e;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner-img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.menu {
+  text-align: center;
+}
+
+.custom-button {
+  background-color: #8e2de2; /* Violet flashy */
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #6b1cb8;
+}
